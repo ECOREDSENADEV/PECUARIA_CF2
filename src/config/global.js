@@ -1,10 +1,9 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Información y recolección de datos',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+      'El tratamiento de la información constituye una actividad clave e indispensable en la administración de cualquier unidad productiva, gracias a ello, es posible aprender de hechos pasados y anticiparse a situaciones problemáticas. Hacer uso de las metodologías y herramientas disponibles en la actualidad agilizará la gestión administrativa y otorgará más garantías en el manejo de los datos',
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -24,116 +23,38 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Información',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Uso',
+            hash: 'Uso',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Ciclo de vida',
+            hash: 'Ciclo de vida',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo: 'Lenguaje técnico',
+            hash: 'Lenguaje técnico',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
+            titulo: 'Confidencialidad',
+            hash: 'Confidencialidad',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Fuentes',
+            hash: 'Fuentes',
           },
         ],
       },
@@ -141,44 +62,110 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Métodos de recolección',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Criterios de selección',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Observación',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
+            numero: '2.2.1',
+            titulo: 'Recomendaciones para el observador',
+            hash: 't_2_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2.2',
+            titulo: 'Modalidades de observación',
+            hash: 't_2_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2.3',
+            titulo: 'Instrumentos para la recolección de información',
+            hash: 't_2_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Entrevista',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
+            numero: '2.3.1',
+            titulo: 'Clasificación',
+            hash: 't_2_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3.2',
+            titulo: 'Posibilidades y limitaciones',
+            hash: 't_2_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3.3',
+            titulo: 'Pasos para su aplicación',
+            hash: 't_2_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Animación 2D',
+            titulo: 'Encuesta',
             hash: 't_2_4',
           },
           {
             icono: 'far fa-file-alt',
+            numero: '2.4.1',
+            titulo: 'Posibilidades y limitaciones',
+            hash: 't_2_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4.2',
+            titulo: 'Instrumentos para la recolección de información',
+            hash: 't_2_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Video interactivo',
+            titulo: 'Análisis de contenido',
             hash: 't_2_5',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
+            numero: '2.5.1',
+            titulo: 'Aplicaciones',
+            hash: 't_2_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5.2',
+            titulo: 'Característicass',
+            hash: 't_2_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5.3',
+            titulo: 'Tipos de análisis',
+            hash: 't_2_5_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5.3',
+            titulo: 'Etapas',
+            hash: 't_2_5_3',
           },
         ],
       },
@@ -186,45 +173,32 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Ofimática',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            titulo: 'Usos',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
+            titulo: 'Herramientas ofimáticas',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Clasificación de los hilos',
+            titulo: 'Softwares de recolección de datos',
             hash: 't_3_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Clasificación de tejidos',
+            titulo: 'Licencias',
             hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
           },
         ],
       },
@@ -271,47 +245,49 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Castillo, I. (2018). Lenguaje técnico: características y ejemplos. Lifeder.',
+      link: 'https://www.lifeder.com/lenguaje-tecnico/',
+    },
+    {
+      referencia:
+        'Comisión Económica para América Latina y el Caribe [CEPAL]. (2020). Gestión de datos de investigación.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://biblioguias.cepal.org/gestion-de-datos-de-investigacion/tipos-datos',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Constitución Política de Colombia [Const]. Art. 15. 7 de julio de 1991 (Colombia). ',
+      link: 'https://www.acnur.org/fileadmin/Documentos/BDL/2001/0219.pdfs',
+    },
+    {
+      referencia:
+        'Decreto 1377 de 2013. Por el cual se reglamenta parcialmente la Ley 1581 de 2012. Junio 27 de 2013. DO. Nº 48.834.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1276081',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Emanuelli, P., Egidos, D., Ortúzar, I., García, D., Dorado, C., Ulla, C., Cárcar, M. y Blanco, C. (2012) Herramientas de Metodología para investigar en comunicación: Técnicas de recolección y análisis de la información. Editorial Copy-Rápido. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://filadd.com/doc/tomo2-1-manual-herramientas-de-metodol-para',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Ley 1266 de 2008. Por la cual se dictan las disposiciones generales del hábeas data y se regula el manejo de la información contenida en bases de datos personales, en especial la financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones. Diciembre 31 de 2008. DO. Nº 47.219 ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=34488',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Octubre 17 de 2012. DO. Nº 48.587. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Pérez, A. (2020). Las 4 fases del ciclo de vida de los datos. OBS Business School.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.obsbusiness.school/blog/las-4-fases-del-ciclo-de-vida-de-los-datos',
     },
   ],
   glosario: [

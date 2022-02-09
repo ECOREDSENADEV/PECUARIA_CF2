@@ -5,7 +5,7 @@ div
 
   //- .titulo-principal debe ir acompañado de una de una de estas clases => 
   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-  .titulo-principal.color-acento-contenido
+  .titulo-principal.color-acento-botones
     .titulo-principal__numero
       span 1
     h1 Título principal, 30pt
@@ -58,7 +58,7 @@ div
 
   Separador
 
-  #botones.titulo-segundo.color-acento-botones
+  #botones.titulo-segundo.color-acento-Botones
     h2 Botones
 
   .mb-3

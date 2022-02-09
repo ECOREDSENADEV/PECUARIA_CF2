@@ -23,7 +23,7 @@ const router = new VueRouter({
       name: 'curso',
       component: Curso,
       redirect: {
-        name: 'tema1',
+        name: '1	Información',
       },
       children: [
         {
