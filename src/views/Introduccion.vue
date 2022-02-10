@@ -9,8 +9,8 @@
           i.fas.fa-info
       h1 Introducción
 
-    span.text-black Bienvenido.
-    p.mb-5 Como verá en adelante, la información es base de desarrollo, con su buen manejo se logran resultados increíbles:
+    span.text-black Bienvenido. 
+    span.p.mb-5 Como verá en adelante, la información es base de desarrollo, con su buen manejo se logran resultados increíbles:
     
     figure.mb-5
       .video
@@ -19,7 +19,8 @@
     
     
     figure.mb-5
-             img(src="@/assets/curso/banner-intro.jpg", alt="Texto que describa la imagen")
+       img(src="@/assets/curso/banner-intro.jpg", alt="Texto que describa la imagen")
+       
                
 </template>
 

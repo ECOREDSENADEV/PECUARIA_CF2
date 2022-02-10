@@ -19,7 +19,7 @@
           | Para ello, es recomendable un análisis asociado a las necesidades que se esperan satisfacer y la naturaleza de los datos; una vez se tiene claridad sobre lo anterior, se proponen las metodologías y se elige aquella que resulte más efectiva dada la disponibilidad de recursos.
     br
     br    
-    #t_2_1.titulo-segundo
+    #t_2_1.titulo-segundo.color-acento-contenido
       .h4 2.1 Criterios de selección
 
     .row
@@ -40,7 +40,7 @@
           .row(titulo="Naturaleza del estudio")
             .col-md-3
               figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/template/img-placeholder0.svg', alt='Texto que describa la imagen')
                  
             .col-md-9.mb-4.mb-md-0
               p la información a recolectar puede ser cuantitativa, cualitativa, o contar con una mixtura de las dos. Según su naturaleza, ciertas herramientas pueden ser más prácticas. Por ejemplo, una entrevista suele ser más efectiva para recolectar información cualitativa, mientras que un cuestionario puede facilitar la obtención de datos cuantitativos.
@@ -65,18 +65,57 @@
                 img(src='@/assets/template/img-placeholder3.svg', alt='Texto que describa la imagen')
             .col-md-9.mb-4.mb-md-0
               p delegar funciones y estructurar el trabajo de forma organizada contribuye a la eficiencia en el proceso de recolección de información. Coordinar el trabajo puede reducir costos y optimizar los resultados, es por ello que la planeación toma relevancia durante el proceso de elección de metodología.
-    
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
+      br
+      br
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
+    #t_2_2.titulo-segundo.color-acento-contenido
+      .h4 2.2 Observación
+      
+    .row
+        .col-md-3
+          figure  
+            img(src="@/assets/curso/img2.2.svg")
 
+        .col-md-9
+              p A través de la acción de la observación, el ser humano percibe su entorno; gracias a ello, es capaz de registrar situaciones y fenómenos ocurridos en un lugar y momento determinados. En cierto sentido, funciona como un sistema de recolección de información, puesto que lleva a identificar eventos asociados a algún estímulo en particular y se comporta conforme se muestra a continuación:
+    br
+    br
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
+    #t_2_2_1.titulo.tercer       
+              .h5.text-black Recomendaciones para el observador.
+    .row
+      .col-lg-4
+        .cajon.p-4.mb-4
+                p Con miras a obtener la mayor cantidad y calidad de información, se presentan las siguientes recomendaciones para el observador: 
+        figure 
+          img(src="@/assets/curso/img2.2.1.svg")
+      .col-lg-8
+        .col-md-6.mb-5.mb-md-0
+        //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        LineaTiempoD.color-secundario
+          p.text-small(numero="1" titulo="Definir el objeto de la observación") en muchas ocasiones, la falta de un objetivo definido nubla el juicio de los investigadores y lleva a que su atención se disperse en aspectos de menor relevancia. Es importante definir el sujeto o fenómeno, los comportamientos o las características que se quiere observar, de la manera más específica posible, para centrarse solo en ello.
+          
+          p.text-small(numero="2" titulo="Diseñar herramientas idóneas") para que la observación siga un esquema concreto, donde los datos obtenidos puedan ser registrados de forma precisa y oportuna.
+          
+          p.text-small(numero="3" titulo="Diseñar una planeación") para ser aplicada de manera estricta, donde se definan las actividades previas y aquellas que pondrán a prueba las afirmaciones estudiadas, de tal forma que se den todas las condiciones necesarias para que el trabajo brinde resultados.
+          
+          p.text-small(numero="4" titulo="Asignar labores y distribuir el trabajo") : de tal forma que el equipo involucrado realice las tareas de forma organizada y eficiente. Esto solo aplica para los trabajos investigativos que requieran de más de un investigador o colaborador.
+    br
+    br
+    #t_2_2_2.titulo.tercer       
+              .h5.text-black Modalidades de observación.
+    .col-lg-12
+      .cajon.p-4.mb-4
+        p Con miras a obtener la mayor cantidad y calidad de información, se presentan las siguientes recomendaciones para el observador: 
+    #t_2_3.titulo-segundo
+      .h4 2.3 Entrevista
+
     #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
+      .h4 2.4 Encuesta
 
     p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
 
@@ -85,7 +124,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
+      .h4 2.5 Analisis de contenido
 
     p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
 
