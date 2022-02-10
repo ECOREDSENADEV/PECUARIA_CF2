@@ -3,27 +3,69 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal
-      .h3 Producción Audiovisual
-    
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span 2
+      h1 Métodos de recolección
+     
+   
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/img.svg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-4 A la hora de llevar a cabo un estudio de cualquier naturaleza,  
+          span.text-black es necesario preguntarse qué información será requerida y a través de cuál herramienta será recolectada. 
+          | Para ello, es recomendable un análisis asociado a las necesidades que se esperan satisfacer y la naturaleza de los datos; una vez se tiene claridad sobre lo anterior, se proponen las metodologías y se elige aquella que resulte más efectiva dada la disponibilidad de recursos.
+    br
+    br    
     #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
+      .h4 2.1 Criterios de selección
+
+    .row
+      .col-md-5
+        .cajon-b.color-primario.p-3.mb-5
+          p.mb-0 Elegir una metodología de recolección de información es uno de los pasos cruciales a la hora de efectuar cualquier tipo de investigación. Una decisión errónea en este aspecto puede conllevar el uso desmedido de recursos con resultados inútiles, o a un esfuerzo desproporcionado e innecesario. Debido a lo anterior, es importante contar con personal capacitado en la herramienta a utilizar, de tal forma que se reduzca el margen de error. A continuación, se presentan una serie de elementos a tener presente a la hora de elegir un método de recolección de información:
+      
+        .position-relative(@mouseover="indicadorImagenZoom = false")
+          Zoom(
+          lente="200" 
+          :baja-resolucion="require('@/assets/curso/baja.png')" 
+          :alta-resolucion="require('@/assets/curso/alta.png')"
+        )
+        .indicador--hover(v-if="indicadorImagenZoom")
+      
+      .col-md-7
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Naturaleza del estudio")
+            .col-md-3
+              figure
+                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+                 
+            .col-md-9.mb-4.mb-md-0
+              p la información a recolectar puede ser cuantitativa, cualitativa, o contar con una mixtura de las dos. Según su naturaleza, ciertas herramientas pueden ser más prácticas. Por ejemplo, una entrevista suele ser más efectiva para recolectar información cualitativa, mientras que un cuestionario puede facilitar la obtención de datos cuantitativos.
+        
+          .row(titulo="Objeto o hipótesis de investigación")
+            .col-md-3
+              figure
+                img(src='@/assets/template/img-placeholder1.svg', alt='Texto que describa la imagen')
+            .col-md-9.mb-4.mb-md-0
+              p definir la problemática a abordar o la hipótesis que se espera poner a prueba brinda nociones respecto a los instrumentos de recolección de información más útiles. Se espera que los datos recogidos aporten a la comprobación o cuestionamiento de la problemática abordada, por lo que toda información debe cumplir un propósito.    
+
+          .row(titulo="Recursos disponibles")
+            .col-md-3
+              figure
+                img(src='@/assets/template/img-placeholder2.svg', alt='Texto que describa la imagen')
+            .col-md-9.mb-4.mb-md-0
+              p llevar a cabo un trabajo investigativo involucra capital, tiempo y personal. Según la metodología utilizada, los recursos pueden variar ampliamente. Usualmente, durante la elección, debe primar la idoneidad del método para obtener resultados; sin embargo, cuando los recursos son limitados, puede ser necesario decantarse por la opción que refleje la mejor relación costo-beneficio.
+          
+          .row(titulo="Trabajo en equipo")
+            .col-md-3
+              figure
+                img(src='@/assets/template/img-placeholder3.svg', alt='Texto que describa la imagen')
+            .col-md-9.mb-4.mb-md-0
+              p delegar funciones y estructurar el trabajo de forma organizada contribuye a la eficiencia en el proceso de recolección de información. Coordinar el trabajo puede reducir costos y optimizar los resultados, es por ello que la planeación toma relevancia durante el proceso de elección de metodología.
     
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
-
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
     #t_2_3.titulo-segundo
       .h4 2.3 Motion + Presentador
 

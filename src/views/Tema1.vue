@@ -9,7 +9,8 @@
     //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
     //- esto evitará que se compile en la carpeta final de distribución
     Muestras
-  
+ 
+      
 </template>
 
 <script>

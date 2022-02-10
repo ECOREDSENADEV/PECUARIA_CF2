@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
+
     #t_3_1.pb-5.h2 tema 3.1
     .pb-5(v-for="item of 15")
 
@@ -28,6 +28,24 @@ export default {
   name: 'Tema3',
   data: () => ({
     // variables de vue
+    datosLineaTiempoA: [
+      {
+        ano: '100.000 - 10.000 A.C.',
+        titulo: 'Período Paleolítico',
+        texto: 'Pieles, pelo de animales, hojas, huesos y conchas.',
+      },
+      {
+        ano: '10.000 - 5.000 A.C.',
+        titulo: 'Periodo Mesolítico',
+        texto:
+          'Broches hechos con hueso, abrigos, gorros, botas y zapatillas de cuero.',
+      },
+      {
+        ano: '10.000 - 5.000 A.C.',
+        titulo: 'Periodo Neolítico',
+        texto: 'Vestimenta de fibras animales y vegetales, pulseras de marfil.',
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
