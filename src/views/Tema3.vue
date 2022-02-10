@@ -3,49 +3,25 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    #t_3_1.pb-5.h2 tema 3.1
-    .pb-5(v-for="item of 15")
-
-    #t_3_2.pb-5.h2 tema 3.2
-    .pb-5(v-for="item of 15")
-
-    #t_3_3.pb-5.h2 tema 3.3
-    .pb-5(v-for="item of 15")
-
-    #t_3_4.pb-5.h2 tema 3.4
-    .pb-5(v-for="item of 15")
-
-    #t_3_5.pb-5.h2 tema 3.5
-    .pb-5(v-for="item of 15")
-
-    #t_3_6.pb-5.h2 tema 3.6
-    .pb-5(v-for="item of 15")
-
+    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
+    //- se encuentra en src/components/Muestras.vue
+    //- Una vez el componente "Muestras" no se necesite 
+    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
+    //- esto evitará que se compile en la carpeta final de distribución
+    Muestras
+ 
+      
 </template>
 
 <script>
+import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema3',
+  components: {
+    Muestras, // borrar una vez el componente "Muestras" no se necesite
+  },
   data: () => ({
     // variables de vue
-    datosLineaTiempoA: [
-      {
-        ano: '100.000 - 10.000 A.C.',
-        titulo: 'Período Paleolítico',
-        texto: 'Pieles, pelo de animales, hojas, huesos y conchas.',
-      },
-      {
-        ano: '10.000 - 5.000 A.C.',
-        titulo: 'Periodo Mesolítico',
-        texto:
-          'Broches hechos con hueso, abrigos, gorros, botas y zapatillas de cuero.',
-      },
-      {
-        ano: '10.000 - 5.000 A.C.',
-        titulo: 'Periodo Neolítico',
-        texto: 'Vestimenta de fibras animales y vegetales, pulseras de marfil.',
-      },
-    ],
   }),
   mounted() {
     this.$nextTick(() => {
