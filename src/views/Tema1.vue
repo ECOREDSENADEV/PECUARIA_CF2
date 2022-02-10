@@ -61,7 +61,7 @@
           .row
             .col-md-6.mb-4.mb-md-0
               figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/template/pest_04.svg', alt='Texto que describa la imagen')
                 
             .col-md-6
               h4 Valide los datos y las fuentes de información
@@ -76,19 +76,10 @@
 
             .col-md-6
               figure
-                img(src='@/assets/template/pest_04.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/template/pest_05.svg', alt='Texto que describa la imagen')
                 
         
-        .py-3.py-md-4(titulo="The splendor of the mystery")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              figure
-                img(src='@/assets/template/pest_05.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6
-              h4 Celebrate your failures 6
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
+        
 
       #t_1_2.titulo-segundo.color-acento-contenido
         .h4 1.2	Ciclo de vida
