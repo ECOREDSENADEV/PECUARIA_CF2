@@ -317,18 +317,47 @@
             img(src='@/assets/curso/tema1/img1_4_3.png', alt='img1_4_3')
 
       .row.mb-5
-        .col-2
+        .col-3
           p Si el aprendiz desea profundizar en estas políticas, se recomienda la lectura de la normativa relacionada previamente, a través de las siguientes fuentes:
-        .col-3.bgrtext1_4_1.m-1
-          p.p-2.colorw Ley 1266 de 2008 
-          a.colorw(href='https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=34488')  Click aqui para ir al enlace
-        .col-3.bgrtext1_4_2.m-1
-          p.p-2 Ley 1581 de 2012 
-          a(href='http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html')  Click aqui para ir al enlace
+        .col-3
+          a.boton.bgrtext1_4_1.indicador__container.btn.btn-primary.btn-lg(:href="('https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=34488')"
+            target="_blank"
+            type="application/web"
+            @mouseover="mostrarIndicador = false"
+          )
+            span.colorw Ley 1266 de 2008
+              i.fas.fa-file-link
+              .indicador--click(v-if="mostrarIndicador")
+            span 
+            figure
+              img(src='@/assets/curso/tema1/ico_raya.svg', alt='ico_raya')
+
+        .col-3
+          a.boton.bgrtext1_4_2.indicador__container.btn.btn-primary.btn-lg(:href="('http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html')"
+            target="_blank"
+            type="application/web"
+            @mouseover="mostrarIndicador = false"
+          )
+            span Ley 1581 de 2012 
+              i.fas.fa-file-link
+              .indicador--click(v-if="mostrarIndicador")
+            span 
+            figure
+              img(src='@/assets/curso/tema1/ico_raya.svg', alt='ico_raya')
           
-        .col-3.bgrtext1_4_1.m-1
-          p.p-2.colorw Decreto 1377 de 2013 
-          a.colorw(href='http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1276081')  Click aqui para ir al enlace
+        .col-3
+          a.boton.bgrtext1_4_1.indicador__container.btn.btn-primary.btn-lg(:href="('http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1276081')"
+            target="_blank"
+            type="application/web"
+            @mouseover="mostrarIndicador = false"
+          )
+            span.colorw Decreto 1377 de 2013  
+              i.fas.fa-file-link
+              .indicador--click(v-if="mostrarIndicador")
+            span 
+            figure
+              img(src='@/assets/curso/tema1/ico_raya.svg', alt='ico_raya')
+      
 
       #t1_5.titulo-segundo.color-acento-contenido
         .h4 1.5	Fuentes
@@ -351,10 +380,8 @@
         .tarjeta.color-acento-botones.p-3(x="43.5%" y="81%" numero="+")
           .h5.mb-2 Fuentes secundarias:  
           p surgen de las fuentes primarias, es decir, se nutren de contenido ya registrado y recopilado, sometiéndolo a transformaciones o adaptaciones, para facilitar el proceso de transmisión o para complementar el trabajo realizado por el autor original. Ejemplos de este tipo de fuentes son los resúmenes, traducciones, reseñas o adaptaciones de contenido original. Usualmente, no son utilizadas en investigaciones, puesto que en el proceso de transformación pueden omitirse datos relevantes. 
- 
-              
-
-      
+           
+             
 </template>
 
 <script>
