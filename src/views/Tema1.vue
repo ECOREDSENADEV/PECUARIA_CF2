@@ -224,8 +224,8 @@
           p El ser humano ha ampliado su intelecto en todas las direcciones, desde las ciencias de la salud, hasta las económicas, desde el aspecto deportivo, hasta el musical; y este crecimiento exponencial y multidireccional lo ha llevado a utilizar jergas muy específicas para cada campo del conocimiento. El lenguaje técnico se caracteriza por ser accesible únicamente para los estudiados en cierta materia, pero su uso es cada vez más popular, debido a la constante profundización en las temáticas objeto de estudio. 
 
       
-      .row.justify-content-around.align-items-center.bgrimg1_3
-        .col-1
+      .row.bgrimg1_3.mb-5
+        .col-1.aling-item-left
           figure
              img(src='@/assets/curso/tema1/icon_1_2.svg', alt='Análisis y explotación de datos')
         .col-6
@@ -233,15 +233,123 @@
           span Castillo (2018) sugiere las siguientes características para este lenguaje:
         .col-4
         .col-1
+      
+      ImagenInfografica.color-acento-botones.mb-5
+        template(v-slot:imagen)
+          .row
+            .col-3
+            .col-6
+              figure
+                img(src='@/assets/curso/tema1/img_infoa.svg', alt='Texto que describa la imagen')
+                
+            .col-3
 
+        .tarjeta.color-acento-botones.p-3(x="30%" y="21%" numero="+")
+          .h5.mb-2 Crecimiento exponencial: 
+          p conforme más tiempo pasa, más acelerado es su crecimiento, es una situación natural en la sociedad actual, donde el acceso a la educación es cada vez más popular, y las nuevas tecnologías permiten la publicación a nivel global de toda clase de artículos que promueven el avance cultural.
+
+        .tarjeta.color-acento-botones.p-3(x="70%" y="21%" numero="+")
+          .h5.mb-2 Objetivo específico: 
+          p debido a que la terminología solo puede ser plenamente entendida por los expertos en la materia estudiada, su uso se encuentra limitado a públicos específicos: un gremio, una profesión o incluso una temática particular. 
+          
+        .tarjeta.color-acento-botones.p-3(x="30%" y="75%" numero="+")
+          .h5.mb-2 Coherencia, cohesión y adecuación: 
+          p se considera coherente debido a su enfoque en un tema particular, mientras que su cohesión proviene del interés en generar afirmaciones a partir de diversos juicios e ideas que convergen en algo más concreto. Por último, se habla de adecuación debido a la forma en la que se perfila para ser dirigido a un público específico.
+
+        .tarjeta.color-acento-botones.p-3(x="70%" y="75%" numero="+")
+          .h5.mb-2 Carácter unívoco: 
+          p el lenguaje técnico es tan cerrado a un tema particular que es muy poco probable encontrar más de un significado para sus términos. Esto quiere decir que no es para nada habitual evidenciar términos equivalentes, por lo que cada palabra siempre suele significar lo mismo.
     
       #t1_4.titulo-segundo.color-acento-contenido
         .h4 1.4	Confidencialidad
 
+      .row
+        .col-6
+          .col-12
+            p La información es un bien preciado para cualquier individuo, natural o jurídico, puesto que a través de ello se puede acceder a eventos pasados para prever situaciones futuras. Este material histórico puede ser considerado sensible según las particularidades del mismo; por ejemplo, la dirección de residencia de una persona, su teléfono personal o los datos de sus cuentas bancarias son datos que no pueden ser publicados a un amplio grupo de terceros, debido a las consecuencias que ello puede traer.
+          .col-12
+            p.colorg La Constitución Política de 1991 ya consideró este tipo de eventos, por lo que en su Artículo 15 reguló el derecho a la intimidad de las personas, así:
+          .col-12.bgrtext1_4
+              span.colorg ARTÍCULO 15. 
+              span Constitución Política. Todas las personas tienen derecho a su intimidad personal y familiar y a su buen nombre, y el Estado debe respetarlos y hacerlos respetar. De igual modo, tienen derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos y en archivos de entidades públicas y privadas.
+        .col-6
+          figure
+            img(src='@/assets/curso/tema1/img_1_4.png', alt='img_1_4')  
+      .row
+        .col-5
+          figure
+            img(src='@/assets/curso/tema1/img1_4_2.png', alt='img1_4_2')
+        .col-7
+          .col-12
+            p En la recolección, tratamiento y circulación de datos, se respetarán la libertad y demás garantías consagradas en la Constitución.
+          .row
+            .col-3
+              figure
+                img(src='@/assets/curso/tema1/ico_raya.svg', alt='ico_raya')
+            .col-9
+              p La correspondencia y demás formas de comunicación privada son inviolables. Solo pueden ser interceptadas o registradas mediante orden judicial, en los casos y con las formalidades que establezca la ley.
+          .col-12
+            p Para efectos tributarios o judiciales y para los casos de inspección, vigilancia e intervención del Estado, 
+             span.colorg podrá exigirse la presentación de libros de contabilidad y demás documentos privados, en los términos que señale la ley.
+          .col-12
+            p La información tiene muchas presentaciones y la carta magna aborda algunas de las más comunes y personales, como la correspondencia o medios de comunicación privada, pero también incluye otras de uso más comercial, como los bancos de datos, que suelen ser administrados por entidades públicas o empresas de carácter privado. 
+      .row
+        .col-1
+          figure
+            img(src='@/assets/curso/tema1/ico_raya.svg', alt='ico_raya')
+        .col-11
+          p La reglamentación a este derecho constitucional se encuentra en la Ley estatutaria 1266 de 2008, donde 
+            span.colorb se establece el tratamiento de la información contenida en las bases de datos. 
+            span El Artículo 1 de la ley en mención limita su alcance, así: 
+
+      .row
+        .col-7
+          .col-12.bgrtext1_4
+            span.colorg Artículo 1. 
+            span Objeto. La presente ley tiene por objeto desarrollar el derecho constitucional que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos, y los demás derechos, libertades y garantías constitucionales relacionadas con la recolección, tratamiento y circulación de datos personales a que se refiere el Artículo 15 de la Constitución Política, así como el derecho a la información establecido en el Artículo 20 de la Constitución Política, particularmente en relación con la información financiera y crediticia, comercial, de servicios y la proveniente de terceros países.
+          .col-12.mt-4
+            P Posteriormente, en su Artículo 6, se enlistan los derechos con los que cuentan los titulares de la información contenida en las bases de datos y sus fuentes de información; asimismo, el artículo siguiente presenta los deberes de los operadores, las fuentes y los usuarios a la hora del registro, mantenimiento y comunicación de la información recolectada.
+          .col-12
+            P Finalmente, la Ley 1581 de 2012, junto a su decreto reglamentario emitido el año posterior (Decreto 1377 de 2013), complementan la regulación de la información de las bases de datos, incluyendo aspectos clave como las autorizaciones del uso de la información consignada y la debida gestión que deben dar los operadores. 
+              span.colorg Actualmente, es la Superintendencia de Industria y Comercio la encargada de ejercer la supervisión de estas prácticas por parte de los diferentes actores de la economía en Colombia. 
+        .col-5
+          figure
+            img(src='@/assets/curso/tema1/img1_4_3.png', alt='img1_4_3')
+
+      .row.mb-5
+        .col-3
+          p Si el aprendiz desea profundizar en estas políticas, se recomienda la lectura de la normativa relacionada previamente, a través de las siguientes fuentes:
+        .col-3.bgrtext1_4_1
+          p.color-text-white Ley 1266 de 2008 https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=34488
+        .col-3.bgrtext1_4_2
+          p Ley 1581 de 2012 http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html
+        .col-3.bgrtext1_4_1
+          p.color-text-white Decreto 1377 de 2013 http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1276081
 
       #t1_5.titulo-segundo.color-acento-contenido
         .h4 1.5	Fuentes
+      p.mb-3 Una fuente es el origen de los datos, de donde proviene la información. Según su procedencia, pueden clasificarse así:
+
+      ImagenInfografica.color-acento-botones.mb-5
+        template(v-slot:imagen)
+          .row
+            .col-2
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/img1_5.svg', alt='Texto que describa la imagen')
+                    
+            .col-3
+
+        .tarjeta.color-acento-botones.p-3(x="43.5%" y="17%" numero="+")
+          .h5.mb-2 Fuentes primarias: 
+          p provienen de un trabajo intelectual original, donde su autor observó los hechos y los registró, sin soportarse en el trabajo de otros. Son considerados los datos más confiables, puesto que no sufren ningún tipo de transformación o adaptación y, por lo tanto, transmiten las ideas de la forma más fidedigna a la voluntad del autor. Ejemplos de estas fuentes son las encuestas, cuestionarios, libros o fotografías.
+
+        .tarjeta.color-acento-botones.p-3(x="43.5%" y="81%" numero="+")
+          .h5.mb-2 Fuentes secundarias:  
+          p surgen de las fuentes primarias, es decir, se nutren de contenido ya registrado y recopilado, sometiéndolo a transformaciones o adaptaciones, para facilitar el proceso de transmisión o para complementar el trabajo realizado por el autor original. Ejemplos de este tipo de fuentes son los resúmenes, traducciones, reseñas o adaptaciones de contenido original. Usualmente, no son utilizadas en investigaciones, puesto que en el proceso de transformación pueden omitirse datos relevantes. 
  
+              
+
       
 </template>
 
