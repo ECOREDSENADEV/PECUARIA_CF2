@@ -317,14 +317,18 @@
             img(src='@/assets/curso/tema1/img1_4_3.png', alt='img1_4_3')
 
       .row.mb-5
-        .col-3
+        .col-2
           p Si el aprendiz desea profundizar en estas políticas, se recomienda la lectura de la normativa relacionada previamente, a través de las siguientes fuentes:
-        .col-3.bgrtext1_4_1
-          p.color-text-white Ley 1266 de 2008 https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=34488
-        .col-3.bgrtext1_4_2
-          p Ley 1581 de 2012 http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html
-        .col-3.bgrtext1_4_1
-          p.color-text-white Decreto 1377 de 2013 http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1276081
+        .col-3.bgrtext1_4_1.m-1
+          p.p-2.colorw Ley 1266 de 2008 
+          a.colorw(href='https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=34488')  Click aqui para ir al enlace
+        .col-3.bgrtext1_4_2.m-1
+          p.p-2 Ley 1581 de 2012 
+          a(href='http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html')  Click aqui para ir al enlace
+          
+        .col-3.bgrtext1_4_1.m-1
+          p.p-2.colorw Decreto 1377 de 2013 
+          a.colorw(href='http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1276081')  Click aqui para ir al enlace
 
       #t1_5.titulo-segundo.color-acento-contenido
         .h4 1.5	Fuentes
