@@ -8,14 +8,14 @@
         h1 Información
 
       .row.mb-5
-        .col-4
+        .col-md-4.mb-3
           span.colorg La información es la disposición de datos en un orden o estructura determinada bajo las reglas de un contexto específico, con lo que se les brinda a estos últimos alguna utilidad.
           span Los datos son, en principio, abstractos, por ejemplo, una serie de caracteres o dígitos numéricos, presentados a modo de listado o de forma desorganizada, no aportan información de utilidad, sin embargo, si se les dota de contexto y se justifica su ordenamiento, pueden llevar al entendimiento de una situación específica. 
-        .col-4
-          figure.mb-5
+        .col-md-4.mb-3
+          figure
             img(src='@/assets/curso/tema1/img_infor.png', alt='Información')
-        .col-4
-          .col-3
+        .col-md-4
+          .col-3.d-none.d-lg-block.px-0
             figure  
               img(src="@/assets/template/img2.2.svg")
             
@@ -86,9 +86,9 @@
       #t1_2.titulo-segundo.color-acento-contenido
         .h4 1.2	Ciclo de vida
       .row  
-        .col-8
+        .col-md-8
           p La información atraviesa un proceso que contiene cuatro etapas principales y que comprenden aquellas actividades derivadas de su recolección, análisis y conservación. Cada etapa detalla una serie de parámetros centrados en la mejora de la productividad, bien sea enfocada en la precisión de la información recolectada, o en la consecución de objetivos a partir de la interpretación de los datos dispuestos. El siguiente diagrama presenta las cuatro etapas del ciclo de vida de la información:
-        .col-4
+        .col-md-4
           figure
             img(src='@/assets/curso/tema1/img_ciclo_1.svg', alt='Ciclo de vida de la información.')
       
@@ -214,25 +214,27 @@
     
       #t1_3.titulo-segundo.color-acento-contenido
         .h4 1.3	Lenguaje técnico
-      .row.mt-5
-        .col-4
+      .row
+        .col-md-4
          p La información debe presentarse de tal manera que sea entendible para su público objetivo; así, cuando es de interés general, el lenguaje debe usar terminología común para cualquier individuo, sin importar su profesión u oficio. Por otro lado, cuando se busca abordar temáticas técnicas propias de una disciplina muy concreta, es viable el uso de un lenguaje más preciso y de alto contenido técnico.
-        .col-4
+        .col-md-4.mb-3
           figure
             img(src='@/assets/curso/tema1/leng_tecn.jpg', alt='Análisis y explotación de datos')
-        .col-4
+        .col-md-4
           p El ser humano ha ampliado su intelecto en todas las direcciones, desde las ciencias de la salud, hasta las económicas, desde el aspecto deportivo, hasta el musical; y este crecimiento exponencial y multidireccional lo ha llevado a utilizar jergas muy específicas para cada campo del conocimiento. El lenguaje técnico se caracteriza por ser accesible únicamente para los estudiados en cierta materia, pero su uso es cada vez más popular, debido a la constante profundización en las temáticas objeto de estudio. 
 
       
       .row.bgrimg1_3.mb-5
-        .col-1.aling-item-left
+        .col-md-1.d-none.d-lg-block.col-lg-2.p-5
           figure
              img(src='@/assets/curso/tema1/icon_1_2.svg', alt='Análisis y explotación de datos')
-        .col-6
+        .col-md-6.p-5
           p.colorg Conforme pasa el tiempo, el enriquecimiento de nuestro idioma se ve liderado por la          utilización de lenguajes técnicos para todas las disciplinas abordadas.
           span Castillo (2018) sugiere las siguientes características para este lenguaje:
-        .col-4
-        .col-1
+        .col-md-4.p-3
+          figure
+             img(src='@/assets/curso/tema1/img_1_3.png', alt='imagen 1_3')
+        
       
       ImagenInfografica.color-acento-botones.mb-5
         template(v-slot:imagen)
@@ -242,8 +244,7 @@
               figure
                 img(src='@/assets/curso/tema1/img_infoa.svg', alt='Texto que describa la imagen')
                 
-            .col-3
-
+          
         .tarjeta.color-acento-botones.p-3(x="30%" y="21%" numero="+")
           .h5.mb-2 Crecimiento exponencial: 
           p conforme más tiempo pasa, más acelerado es su crecimiento, es una situación natural en la sociedad actual, donde el acceso a la educación es cada vez más popular, y las nuevas tecnologías permiten la publicación a nivel global de toda clase de artículos que promueven el avance cultural.
@@ -264,47 +265,47 @@
         .h4 1.4	Confidencialidad
 
       .row
-        .col-6
-          .col-12
+        .col-md-6.mb-2
+          .col-md-12
             p La información es un bien preciado para cualquier individuo, natural o jurídico, puesto que a través de ello se puede acceder a eventos pasados para prever situaciones futuras. Este material histórico puede ser considerado sensible según las particularidades del mismo; por ejemplo, la dirección de residencia de una persona, su teléfono personal o los datos de sus cuentas bancarias son datos que no pueden ser publicados a un amplio grupo de terceros, debido a las consecuencias que ello puede traer.
-          .col-12
+          .col-md-12
             p.colorg La Constitución Política de 1991 ya consideró este tipo de eventos, por lo que en su Artículo 15 reguló el derecho a la intimidad de las personas, así:
-          .col-12.bgrtext1_4
+          .col-md-12.bgrtext1_4.p-4
               span.colorg ARTÍCULO 15. 
               span Constitución Política. Todas las personas tienen derecho a su intimidad personal y familiar y a su buen nombre, y el Estado debe respetarlos y hacerlos respetar. De igual modo, tienen derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos y en archivos de entidades públicas y privadas.
-        .col-6
+        .col-md-6.mb-2
           figure
             img(src='@/assets/curso/tema1/img_1_4.png', alt='img_1_4')  
       .row
-        .col-5
+        .col-md-5.mb-2
           figure
             img(src='@/assets/curso/tema1/img1_4_2.png', alt='img1_4_2')
-        .col-7
-          .col-12
+        .col-md-7
+          .col-md-12
             p En la recolección, tratamiento y circulación de datos, se respetarán la libertad y demás garantías consagradas en la Constitución.
           .row
-            .col-3
+            .col-md-3.d-none.d-lg-block.col-lg-3
               figure
                 img(src='@/assets/curso/tema1/ico_raya.svg', alt='ico_raya')
-            .col-9
+            .col-md-9
               p La correspondencia y demás formas de comunicación privada son inviolables. Solo pueden ser interceptadas o registradas mediante orden judicial, en los casos y con las formalidades que establezca la ley.
-          .col-12
+          .col-md-12
             p Para efectos tributarios o judiciales y para los casos de inspección, vigilancia e intervención del Estado, 
              span.colorg podrá exigirse la presentación de libros de contabilidad y demás documentos privados, en los términos que señale la ley.
-          .col-12
+          .col-md-12
             p La información tiene muchas presentaciones y la carta magna aborda algunas de las más comunes y personales, como la correspondencia o medios de comunicación privada, pero también incluye otras de uso más comercial, como los bancos de datos, que suelen ser administrados por entidades públicas o empresas de carácter privado. 
       .row
-        .col-1
+        .col-md-1.d-none.d-lg-block.col-lg-1.pt-2
           figure
-            img(src='@/assets/curso/tema1/ico_raya.svg', alt='ico_raya')
-        .col-11
+            img(src='@/assets/curso/tema1/ico_raya_2.svg', alt='ico_raya')
+        .col-md-11
           p La reglamentación a este derecho constitucional se encuentra en la Ley estatutaria 1266 de 2008, donde 
             span.colorb se establece el tratamiento de la información contenida en las bases de datos. 
             span El Artículo 1 de la ley en mención limita su alcance, así: 
 
       .row
-        .col-7
-          .col-12.bgrtext1_4
+        .col-md-7
+          .col-12.bgrtext1_4.p-4
             span.colorg Artículo 1. 
             span Objeto. La presente ley tiene por objeto desarrollar el derecho constitucional que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos, y los demás derechos, libertades y garantías constitucionales relacionadas con la recolección, tratamiento y circulación de datos personales a que se refiere el Artículo 15 de la Constitución Política, así como el derecho a la información establecido en el Artículo 20 de la Constitución Política, particularmente en relación con la información financiera y crediticia, comercial, de servicios y la proveniente de terceros países.
           .col-12.mt-4
@@ -312,15 +313,15 @@
           .col-12
             P Finalmente, la Ley 1581 de 2012, junto a su decreto reglamentario emitido el año posterior (Decreto 1377 de 2013), complementan la regulación de la información de las bases de datos, incluyendo aspectos clave como las autorizaciones del uso de la información consignada y la debida gestión que deben dar los operadores. 
               span.colorg Actualmente, es la Superintendencia de Industria y Comercio la encargada de ejercer la supervisión de estas prácticas por parte de los diferentes actores de la economía en Colombia. 
-        .col-5
+        .col-md-5
           figure
             img(src='@/assets/curso/tema1/img1_4_3.png', alt='img1_4_3')
 
       .row.mb-5
-        .col-3
+        .col-md-3
           p Si el aprendiz desea profundizar en estas políticas, se recomienda la lectura de la normativa relacionada previamente, a través de las siguientes fuentes:
-        .col-3
-          a.boton.bgrtext1_4_1.indicador__container.btn.btn-primary.btn-lg(:href="('https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=34488')"
+        .col-md-3
+          a.boton.bgrtext1_4_1.indicador__container.btn.btn-primary(:href="('https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=34488')"
             target="_blank"
             type="application/web"
             @mouseover="mostrarIndicador = false"
@@ -332,8 +333,8 @@
             figure
               img(src='@/assets/curso/tema1/ico_raya.svg', alt='ico_raya')
 
-        .col-3
-          a.boton.bgrtext1_4_2.indicador__container.btn.btn-primary.btn-lg(:href="('http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html')"
+        .col-md-3
+          a.boton.bgrtext1_4_2.indicador__container.btn.btn-primary(:href="('http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html')"
             target="_blank"
             type="application/web"
             @mouseover="mostrarIndicador = false"
@@ -345,8 +346,8 @@
             figure
               img(src='@/assets/curso/tema1/ico_raya.svg', alt='ico_raya')
           
-        .col-3
-          a.boton.bgrtext1_4_1.indicador__container.btn.btn-primary.btn-lg(:href="('http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1276081')"
+        .col-md-3
+          a.boton.bgrtext1_4_1.indicador__container.btn.btn-primary(:href="('http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1276081')"
             target="_blank"
             type="application/web"
             @mouseover="mostrarIndicador = false"
@@ -366,12 +367,11 @@
       ImagenInfografica.color-acento-botones.mb-5
         template(v-slot:imagen)
           .row
-            .col-2
-            .col-7
+            .col-md-2
+            .col-md-7
               figure
                 img(src='@/assets/curso/tema1/img1_5.svg', alt='Texto que describa la imagen')
-                    
-            .col-3
+
 
         .tarjeta.color-acento-botones.p-3(x="43.5%" y="17%" numero="+")
           .h5.mb-2 Fuentes primarias: 
