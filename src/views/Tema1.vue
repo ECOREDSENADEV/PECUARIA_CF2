@@ -102,113 +102,113 @@
             
         div(x="27.1%" y="45%" tooltip="Click para abrir")
           .row.bgrmodalciclo
-            .col-1
-            .col-6.mt-5
+            .col-md-1
+            .col-md-6.mt-5
               h4.colorg Creación y captura: 
               p corresponde a la primera etapa del ciclo de vida de la información. Los datos pueden surgir a partir de diversas fuentes, siempre y cuando, las mismas se encuentren destinadas a suplir las necesidades de la organización. Algunas de las fuentes de información más utilizadas son las siguientes:
-            .col-4
+            .col-md-4
               figure
                 img(src='@/assets/curso/tema1/crea_cap.png', alt='Creación y captura: ')
-            .col-1
+            
 
         div(x="27.1%" y="57%" tooltip="Click para abrir")
           .row.bgrmodalciclo
-            .col-1
-            .col-6.mt-5
+            .col-md-1
+            .col-md-6.mt-5
               h4.colorg Datos preexistentes
               p pueden ser de otras organizaciones, empresas que pueden dedicarse al mismo sector o a la misma actividad, puesto que, de esta forma, se posibilita la homologación de los datos entre compañías, sin esfuerzos desproporcionados.
-            .col-4
+            .col-md-4
               figure
                 img(src='@/assets/curso/tema1/datso_pre.png', alt='Datos preexistentes')
-            .col-1
+            
 
         div(x="27.1%" y="70%" tooltip="Click para abrir")
           .row.bgrmodalciclo
-            .col-1
-            .col-6.mt-5
+            .col-md-1
+            .col-md-6.mt-5
               h4.colorg Generación de información
               p a través de las actividades desarrolladas por los funcionarios encargados.
-            .col-4
+            .col-md-4
               figure
                 img(src='@/assets/curso/tema1/gen_info.png', alt='Generación de información')
-            .col-1
+            
 
         div(x="27.1%" y="83%" tooltip="Click para abrir")
           .row.bgrmodalciclo
-            .col-1
-            .col-6.mt-5
+            .col-md-1
+            .col-md-6.mt-5
               h4.colorg Información disponible
               p en medios de acceso público, como libros, noticiarios, páginas web o redes sociales; la selección de estas fuentes estará supeditada a la naturaleza de la investigación y sus objetivos.
-            .col-4
+            .col-md-4
               figure
                 img(src='@/assets/curso/tema1/info_disp.png', alt='Información disponible')
-            .col-1
+            
 
         div(x="44.4%" y="45%" tooltip="Click para abrir")
           .row.bgrmodalciclo
-            .col-1
-            .col-6.mt-5
+            .col-md-1
+            .col-md-6.mt-5
               h4.colorg Transmisión, almacenamiento y seguridad: 
               p Una vez la información ha sido recolectada, se continúa con la transmisión a los usuarios interesados. Para garantizar el acceso a los datos en periodos posteriores, es necesario su almacenaje en condiciones seguras que garanticen su integridad.
-            .col-4
+            .col-md-4
               figure
                 img(src='@/assets/curso/tema1/trsn_alma_seguri.png', alt='Transmisión, almacenamiento y seguridad: ')
-            .col-1
+            
 
         div(x="44.4%" y="57%" tooltip="Click para abrir")
           .row.bgrmodalciclo
-            .col-1
-            .col-6.mt-5
+            .col-md-1
+            .col-md-6.mt-5
               h4.colorg Tranmisión:
               p la información puede ser relevante para diferentes actores en una misma organización. Los datos de venta son importantes para el área comercial, pero también lo son para el área de recaudo o de producción. Debido a esto, deben existir medios de transmisión de la información que permitan que esta llegue a todos los interesados. Las posibilidades van desde las soluciones integrales asociadas a softwares administrativos, hasta los programas de mensajería instantánea.
-            .col-4
+            .col-md-4
               figure
                 img(src='@/assets/curso/tema1/transm.png', alt='Tranmisión')
-            .col-1
+            
         
         div(x="44.4%" y="70%" tooltip="Click para abrir")
           .row.bgrmodalciclo
-            .col-1
-            .col-6.mt-5
+            .col-md-1
+            .col-md-6.mt-5
               h4.colorg Almacenamiento:
               p tanto la información física como digital demandan espacios para su almacenamiento. Las bases de datos abordan esta tarea conservando la información según los criterios técnicos aplicados, de la misma forma que lo hace una estantería que archiva los documentos físicos. 
-            .col-4
+            .col-md-4
               figure
                 img(src='@/assets/curso/tema1/almac.png', alt='Almacenamiento')
-            .col-1
+            
 
         div(x="44.4%" y="83%" tooltip="Click para abrir")
           .row.bgrmodalciclo
-            .col-1
-            .col-6.mt-5
+            .col-md-1
+            .col-md-6.mt-5
               h4.colorg Seguridad:
               p cuando se trabaja con datos sensibles, deben existir sistemas encargados de facilitar la información a aquellos destinatarios cuando la requieran, pero de esta misma forma, deben implementarse medidas para que el acceso sea lo suficientemente controlado para evitar que personas no autorizadas accedan a ella. La información es un activo intangible de vital importancia para cualquier organización, puesto que compila datos variados y claves de la empresa, como clientes, fórmulas de producción o estrategias mercantiles; su publicación puede conllevar consecuencias graves, donde se pierden ventajas competitivas.
-            .col-4
+            .col-md-4
               figure
                 img(src='@/assets/curso/tema1/seguri.png', alt='Datos preexistentes')
-            .col-1
+            
 
         div(x="61.1%" y="45%" tooltip="Click para abrir")
           .row.bgrmodalciclo
-            .col-1
-            .col-6.mt-5
+            .col-md-1
+            .col-md-6.mt-5
               h4.colorg Gestión y trabajo colaborativo:  
               p debido a las diversas perspectivas desde donde se puede abordar la información, suele ser recomendable el trabajo colaborativo. Cuando existe multiplicidad de colaboradores, la productividad incrementa; es por ello que, usualmente, se designan funcionarios de cada área para sustraer los datos más relevantes para ellos, otorgando los permisos necesarios en una ventana de tiempo determinada.
-            .col-4
+            .col-md-4
               figure
                 img(src='@/assets/curso/tema1/gest_trbj_col.png', alt='Gestión y trabajo colaborativo ')
-            .col-1
+            
           
         div(x="78.2%" y="45%" tooltip="Click para abrir")
           .row.bgrmodalciclo
-            .col-1
-            .col-6.mt-5
+            .col-md-1
+            .col-md-6.mt-5
               h4.colorg Análisis y explotación de datos:   
               p debido a las diversas perspectivas desde donde se puede abordar la información, suele ser recomendable el trabajo colaborativo. Cuando existe multiplicidad de colaboradores, la productividad incrementa; es por ello que, usualmente, se designan funcionarios de cada área para sustraer los datos más relevantes para ellos, otorgando los permisos necesarios en una ventana de tiempo determinada.
-            .col-4
+            .col-md-4
               figure
                 img(src='@/assets/curso/tema1/anali_explo.png', alt='Análisis y explotación de datos')
-            .col-1
+            
 
 
     
@@ -225,13 +225,13 @@
 
       
       .row.bgrimg1_3.mb-5
-        .col-md-1.d-none.d-lg-block.col-lg-2.p-5
+        .col-md.d-none.d-lg-block.col-lg-2.p-5
           figure
              img(src='@/assets/curso/tema1/icon_1_2.svg', alt='Análisis y explotación de datos')
         .col-md-6.p-5
           p.colorg Conforme pasa el tiempo, el enriquecimiento de nuestro idioma se ve liderado por la          utilización de lenguajes técnicos para todas las disciplinas abordadas.
           span Castillo (2018) sugiere las siguientes características para este lenguaje:
-        .col-md-4.p-3
+        .col-md-4.p-4
           figure
              img(src='@/assets/curso/tema1/img_1_3.png', alt='imagen 1_3')
         
