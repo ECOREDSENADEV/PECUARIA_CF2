@@ -334,7 +334,7 @@
               img(src='@/assets/curso/tema1/ico_raya.svg', alt='ico_raya')
 
         .col-md-3
-          a.boton.bgrtext1_4_2.indicador__container.btn.btn-primary(:href="('http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html')"
+          a.boton.bgrtext1_4.indicador__container.btn.btn-primary(:href="('http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html')"
             target="_blank"
             type="application/web"
             @mouseover="mostrarIndicador = false"

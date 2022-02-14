@@ -18,7 +18,7 @@
         figure
           img(src='@/assets/curso/tema2/img_banner2.svg', alt='Imagen Banner')    
         
-    #t_2_1.titulo-segundo.color-acento-contenido
+    #t2_1.titulo-segundo.color-acento-contenido
       .h4 2.1 Criterios de selección
 
     .row.mb-3
@@ -65,7 +65,7 @@
             .col-md-9.mb-4.mb-md-0
               p delegar funciones y estructurar el trabajo de forma organizada contribuye a la eficiencia en el proceso de recolección de información. Coordinar el trabajo puede reducir costos y optimizar los resultados, es por ello que la planeación toma relevancia durante el proceso de elección de metodología.
      
-    #t_2_2.titulo-segundo.color-acento-contenido
+    #t2_2.titulo-segundo.color-acento-contenido
       .h4 2.2 Observación
       
     .row.mb-3
@@ -85,7 +85,7 @@
     .row.mb-3
       .col-lg-4
         .cajon.p-4.mb-4
-                p Con miras a obtener la mayor cantidad y calidad de información, se presentan las siguientes recomendaciones para el observador: 
+          p Con miras a obtener la mayor cantidad y calidad de información, se presentan las siguientes recomendaciones para el observador: 
         figure 
           img(src="@/assets/curso/tema2/img2.2.1.png")
       .col-lg-8
@@ -308,7 +308,7 @@
           img(src='@/assets/curso/tema2/img_baner2_2.png', alt='imagen 1_3')    
 
       
-    #t_2_3.titulo-segundo.color-acento-contenido
+    #t2_3.titulo-segundo.color-acento-contenido
       .h4 2.3 Entrevista
     
     p.mb-3 Las entrevistas son un concepto acercado de la mano, con el que se reciben los datos de la primera fuente:
@@ -462,7 +462,7 @@
         figure
           img(src='@/assets/curso/tema2/img_banner_2_3.png', alt='imagen 1_3')
     
-    #t_2_3.titulo-segundo.color-acento-contenido.mb-5
+    #t2_4.titulo-segundo.color-acento-contenido.mb-5
       .h4 2.4 Encuesta
     p La encuesta permite cuestionar a las personas que participaron en un hecho o suceso particular. Se le considera un método descriptivo debido a que favorece la identificación de hábitos, preferencias o ideas, entre otros.
 
@@ -507,21 +507,21 @@
           .col-8
             img(src='@/assets/curso/tema2/img-sly-2.svg' alt='AvatarTop')
        
-        p.text-center -	Puede ser aplicada a muestras mucho más grandes, por lo que las investigaciones que busquen predecir tendencias de poblaciones de grandes dimensiones, como regiones o países, suelen hacer uso de esta metodología.
+        p.text-center Puede ser aplicada a muestras mucho más grandes, por lo que las investigaciones que busquen predecir tendencias de poblaciones de grandes dimensiones, como regiones o países, suelen hacer uso de esta metodología.
 
       .tarjeta.colorbgrw.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema2/img-sly-3.svg' alt='AvatarTop')
         
-        p.text-center -	Las respuestas suelen ser anónimas, los encuestados no suelen dar detalles de su identidad, lo que otorga un confort que lleva a respuestas más honestas, donde no existirán represalias morales por una opinión controvertida.
+        p.text-center Las respuestas suelen ser anónimas, los encuestados no suelen dar detalles de su identidad, lo que otorga un confort que lleva a respuestas más honestas, donde no existirán represalias morales por una opinión controvertida.
 
       .tarjeta.colorbgrw.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema2/img-sly-4.svg' alt='AvatarTop')
         
-        p.text-center -	Los análisis comparativos son mucho más accesibles, gracias a su sistema de recolección y organización de datos.
+        p.text-center Los análisis comparativos son mucho más accesibles, gracias a su sistema de recolección y organización de datos.
 
     .titulo-quinto.color-acento-contenido.mb-3       
       h3 Limitaciones
@@ -547,7 +547,7 @@
               .col-8
                 img(src='@/assets/curso/tema2/img-sy-3.svg' alt='AvatarTop')
             
-            p.text-center -	Debido a que la información se recolecta de manera impersonal, es decir, no hay un contacto directo con los encuestados, pueden surgir dudas o inquietudes que no sean resueltas con las instrucciones brindadas, lo que lleva a comprometer la veracidad de algunas respuestas que provengan de preguntas mal formuladas.
+            p.text-center Debido a que la información se recolecta de manera impersonal, es decir, no hay un contacto directo con los encuestados, pueden surgir dudas o inquietudes que no sean resueltas con las instrucciones brindadas, lo que lleva a comprometer la veracidad de algunas respuestas que provengan de preguntas mal formuladas.
   
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5     
     .titulo-sexto.color-acento-contenido       
@@ -583,69 +583,321 @@
           .tarjeta.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/img-sly-1.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema2/slyp1.svg' alt='AvatarTop')
             
-            p.text-center Su aplicación resulta más económica que la entrevista y la información recolectada puede abordar una gran variedad de temas.
+            p.text-center Las preguntas deben ser fácilmente comprensibles, se debe evitar que los encuestados tengan dudas o confusiones.
+          .tarjeta.color-primario.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/slyp2.svg' alt='AvatarTop')
+          
+            p.text-center Se recomiendan preguntas cerradas o concretas, premisas muy extensas pueden agotar al encuestado rápidamente y afectar su concentración.
 
           .tarjeta.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/img-sly-2.svg' alt='AvatarTop')
-          
-            p.text-center -	Puede ser aplicada a muestras mucho más grandes, por lo que las investigaciones que busquen predecir tendencias de poblaciones de grandes dimensiones, como regiones o países, suelen hacer uso de esta metodología.
+                img(src='@/assets/curso/tema2/slyp3.svg' alt='AvatarTop')
+            
+            p.text-center Las preguntas no deben inducir a las respuestas, deben ser neutrales, para que quien responde no se sienta inclinado a una posición u otra.
 
           .tarjeta.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/img-sly-3.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema2/slyp4.svg' alt='AvatarTop')
             
-            p.text-center -	Las respuestas suelen ser anónimas, los encuestados no suelen dar detalles de su identidad, lo que otorga un confort que lleva a respuestas más honestas, donde no existirán represalias morales por una opinión controvertida.
+            p.text-center Las preguntas cumplen el propósito de cubrir una problemática o hipótesis, es por ello que deben formularse de tal forma que se relacionen con el objeto de estudio y aporten para la consecución de información relacionada.
+          
+          .tarjeta.color-primario.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/slyp5.svg' alt='AvatarTop')
+            
+            p.text-center Se debe evitar respaldar las premisas de las preguntas con instituciones u organizaciones de prestigio, puesto que pueden influir en el juicio de las personas consultadas.
+          
+          .tarjeta.color-primario.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/slyp6.svg' alt='AvatarTop')
+            
+            p.text-center Los temas sensibles, como política, religión o ideología, deben ser abordados con mucho tacto, para evitar herir susceptibilidades.
+          
+          .tarjeta.color-primario.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/slyp4.svg' alt='AvatarTop')
+            
+            p.text-center La complejidad del vocabulario utilizado debe ser acorde con el público encuestado. El uso de lenguaje técnico debe limitarse a expertos en el área consultada.
+          
+          .tarjeta.color-primario.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/slyp8.svg' alt='AvatarTop')
+            
+            p.text-center Las preguntas deben ser sencillas de responder, si demandan mucho trabajo, el encuestado puede perder el interés o no responder honestamente.
+          
+          .tarjeta.color-primario.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/slyp8.svg' alt='AvatarTop')
+            
+            p.text-center No existe un rango de preguntas a formular, pero debe primar la comodidad del encuestado. Listados de pocas preguntas pueden fallar en la recolección de información, y si son demasiado largos, pueden llevar al agotamiento del encuestado.
+      
+    .row
+      .col-md-7
+        .row
+          .col-md-1.d-none.d-lg-block.col-lg-1.px-0
+            figure
+              img(src='@/assets/curso/tema2/img2.2.svg', alt='ico_raya')
+          .col-md-11
+            p La calidad de las preguntas contenidas en la encuesta dicta la parada respecto a su efectividad; 
+              span.colorg si no se cubren los temas esenciales, los resultados no serán los esperados. 
+              | Asimismo, |una muestra apropiada juega otro papel protagónico, el enfoque en un público objetivo debe cumplir con los criterios de selección del investigador.
+        p Las preguntas a consignar en un cuestionario pueden ser de dos clases, a continuación, se presenta cada una de ellas:
+        .row
+          .col-md-12
+            AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+              .row(titulo="Abiertas: ")
+                p la respuesta dada por el encuestado será tan extensa como él considere; la podrá abordar de forma espontánea, haciendo uso de la terminología que conozca y con la que se sienta cómodo. La mayor ventaja de este tipo de preguntas es que se puede obtener información más profunda y detallada, sin embargo, la consolidación de los datos resulta mucho más compleja, al no poder estandarizar la respuesta dentro de un grupo de posibilidades. 
+               
 
-          .tarjeta.color-primario.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/tema2/img-sly-4.svg' alt='AvatarTop')
-            
-            p.text-center -	Los análisis comparativos son mucho más accesibles, gracias a su sistema de recolección y organización de datos.
-          
-          .tarjeta.color-primario.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/tema2/img-sly-4.svg' alt='AvatarTop')
-            
-            p.text-center -	Los análisis comparativos son mucho más accesibles, gracias a su sistema de recolección y organización de datos.
-          
-          .tarjeta.color-primario.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/tema2/img-sly-4.svg' alt='AvatarTop')
-            
-            p.text-center -	Los análisis comparativos son mucho más accesibles, gracias a su sistema de recolección y organización de datos.
-          
-          .tarjeta.color-primario.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/tema2/img-sly-4.svg' alt='AvatarTop')
-            
-            p.text-center -	Los análisis comparativos son mucho más accesibles, gracias a su sistema de recolección y organización de datos.
-          
-          .tarjeta.color-primario.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/tema2/img-sly-4.svg' alt='AvatarTop')
-            
-            p.text-center -	Los análisis comparativos son mucho más accesibles, gracias a su sistema de recolección y organización de datos.
-          
-          .tarjeta.color-primario.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/tema2/img-sly-4.svg' alt='AvatarTop')
-            
-            p.text-center -	Los análisis comparativos son mucho más accesibles, gracias a su sistema de recolección y organización de datos.
+              div(titulo="Cerradas: ")
+                p las personas consultadas se ven limitadas a una serie de opciones de respuesta preconcebidas. Lo anterior limita las posibilidades de obtención de información, pero facilita su estandarización, tabulación o análisis. Las opciones de respuesta deben ser concretas y excluyentes, para evitar que un mismo encuestado considere dos o más opciones como respuestas correctas. Este modelo suele ser particularmente útil para identificar tendencias o conductas comunes. 
+                span Dentro de las preguntas cerradas, 
+                  span.colorg se puede hablar de dos tipos, las preguntas dicotómicas, cuyas opciones de respuesta se reducen a dos: si/no, falso/verdadero; por otra parte, las preguntas de elección múltiple incrementan el número de opciones a elegir, no existe un límite fijo, 
+                  | por lo que dependerá de la amplitud de la pregunta y de la experticia del encuestador. Ejemplo de estas últimas son las preguntas de satisfacción, donde las opciones pueden ir del 1 al 10. 
+      .col-md-5
+        figure
+            img(src='@/assets/curso/tema2/img-+.png', alt='img encuesta')
 
+
+    .row
+      .col-md-4.p-4
+          p A la hora de diseñar el cuestionario, se pueden incluir tanto preguntas abiertas como cerradas. En este sentido, 
+            span.colorg se aconseja que se intercalen, para evitar que el encuestado se agote. 
+            | También se recomienda la formulación de preguntas de control, en las que se plantee una misma pregunta haciendo uso de otros términos, para corroborar la coherencia entre respuestas.
+      .col-md-3.bgrcajonimg2.p-4
+        figure
+            img(src='@/assets/curso/tema2/img-dis-pre.svg', alt='img encuesta')
+      .col-md-5.bgrtext1_4.p-5
+        p La facilidad de aplicación de la encuesta la ha convertido en una estrategia de amplia aceptación; esto se debe, en primera medida, al avance de las herramientas tecnológicas que permiten alcanzar poblaciones mucho mayores, de forma efectiva y casi inmediata. Es común observar encuestas enviadas y diligenciadas
+
+  .container.tarjeta.tarjeta--azul.p-4.p-md-5
+    .row.mb-5
+      .col-md-4.mb-3
+        figure
+          img(src='@/assets/curso/tema2/img_recu_azul.png', alt='img encuesta')
+      .col-md-8
+        .titulo.quino.color-acento-contenido
+          h3 Cédula de entrevista
+        
+        p Funciona de manera muy similar al cuestionario, pero con una diferencia fundamental: la participación del encuestador de forma directa. En el cuestionario, la prueba puede realizarse de manera simultánea a un amplio grupo de individuos, debido a que las instrucciones y las preguntas se encuentran contenidas en un documento al que estos acceden. En la cédula de entrevista, el investigador es quien posee el documento y, por lo tanto, es quien lee las preguntas y anota las respuestas.
+
+        span.colorb La interacción entre encuestador y encuestado favorece la resolución de dudas, por lo que las respuestas obtenidas son más fidedignas a la realidad. 
+        | Al igual que en el cuestionario, la entrevista puede ser anónima, pero, debido al contacto entre las partes, debe propenderse por un ambiente de confianza y confidencialidad, que permita respuestas honestas y espontáneas.
+
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5 
+    #t2_5.titulo-segundo.color-acento-contenido.mb-5
+      .h4 2.5 Análisis de contenido 
+
+    .row
+      .col-md-5.bgrtext1_4.p-5
+        p El eje central de esta metodología consiste en recolectar y analizar los datos al mismo tiempo; para ello, hace uso principalmente de fuentes de información secundarias, es decir, documentos elaborados previamente por otros expertos, en un ámbito social específico. Ofrece una sinergia con la metodología de la observación, puesto que no siempre es posible evidenciar todos los fenómenos posibles en una situación específica, así que la información recolectada de otros expertos que han indagado en la misma materia puede aportar material de análisis adicional.
+      .col-md-3.bgrcajonimg.p-5
+        figure
+            img(src='@/assets/curso/tema2/img-2-5.svg', alt='img encuesta')
+     
+      .col-md-4
+        .col-md-3.d-none.d-lg-block.col-lg-3.px-0
+          figure
+            img(src='@/assets/curso/tema2/img2.2.svg', alt='ico_raya')
+        .col-md-12
+          p La mecánica base consiste en la recolección de datos a partir de diversas fuentes que tengan alguna relación con la problemática que se busca cubrir, desvelando su contenido y significado, y a partir de esto, crear nuevo conocimiento.   
+
+    .row
+      .col-md-4
+        h3.colorb.text-center.pt-5 Aplicaciones.
+        p Esta metodología resulta la de mayor uso, debido a sus costos reducidos y a la facilidad del acceso a la información en la actualidad. Algunos de los usos que se le pueden dar son los siguientes: 
+      
+      .col-md-1.col-lg-8
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-4").mb-5
+          .tarjeta.bgrsly2.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/sly2-1.svg' alt='AvatarTop')
+            
+            p.text-center Profundizar en los estudios realizados por otros. Con un camino ya recorrido, es más viable ahondar en problemáticas que otros ya han trabajado en el pasado.
+          .tarjeta.bgrsly2.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/sly2-2.svg' alt='AvatarTop')
+          
+            p.text-center Comparar estudios que abordan las mismas temáticas desde enfoques similares permite determinar diferencias que surjan de contextos sociales o condiciones culturales.
+
+          .tarjeta.bgrsly2.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/sly2-3.svg' alt='AvatarTop')
+            
+            p.text-center Analizar trabajos de terceros puede llevar a validar o no las conclusiones alcanzadas, la comprobación de resultados o su compatibilidad.
+
+          .tarjeta.bgrsly2.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/sly2-4.svg' alt='AvatarTop')
+            
+            p.text-center Posibilita la recolección de información jurídica, normativa o legal asociada a una región determinada, a través de la recopilación de documentos oficiales.
+          
+          .tarjeta.bgrsly2.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/sly2-5.svg' alt='AvatarTop')
+            
+            p.text-center Debido a que se puede recolectar información de cualquier lugar del mundo, ofrece un acercamiento a entornos culturales que por otros medios no serían alcanzables, permitiendo estudiar grupos de población determinados.
+
+    .titulo-sexto.color-acento-contenido
+      h3 Características.
+    
+    p Existen diversas vertientes que analizan esta metodología de recolección de datos, las siguientes características suelen ser comunes en la mayoría de las posiciones:
+
+    TabsC.color-acento-contenido.mb-5
+      .py-3.py-md-4(titulo="Objetividad")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Objetividad
+            p si se replica cualquier experimento o situación que ha sido previamente documentada por otro experto, las conclusiones que se alcancen con él deben ser, en esencia, las mismas. Las opiniones o ideas preconcebidas de los autores no deberían tener un efecto sobre los resultados, pero, para que ello se dé, las reglas y parámetros de medición deben ser lo suficientemente claros y explícitos para que no haya confusiones en la aplicación.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema2/img_lup.png', alt='Texto que describa la imagen')
+              
+      .py-3.py-md-4(titulo="Sistematicidad")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema2/img_indi.png', alt='Texto que describa la imagen')
+              
+          .col-md-6
+            h4 Sistematicidad
+            p todo procedimiento asociado al análisis de contenido debe seguir un proceso sistemático para la recopilación y análisis de los datos; de la misma forma, con las secuencias para interpretar los fenómenos indagados y los parámetros utilizados para codificar y replicar tanto pruebas como criterios de evaluación.
+        
+      .py-3.py-md-4(titulo="Cuantitativo")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Cuantitativo
+            p su naturaleza apunta a la recolección de información cuantitativa. Esto se debe al método aplicado, donde se consultan múltiples fuentes en la búsqueda de patrones o similitudes que puedan hacerse generales. En este sentido, el resultado a obtener apunta a indicadores o predicciones de conductas.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema2/img_indica.png', alt='Texto que describa la imagen')
+              
+
+      .py-3.py-md-4(titulo="Inferencial")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema2/img_manos.png', alt='Texto que describa la imagen')
+              
+          .col-md-6
+            h4 Inferencial
+            p aunque el análisis de contenido se nutre del trabajo realizado por otros investigadores, el resultado a obtener debe ser la generación de nuevos datos; se considera que es inferencial, dado que, a partir de unos juicios preexistentes y su replicación, se alcanzan nuevas conclusiones.
   
-          
+    .titulo-sexto.color-acento-contenido
+      h3 Tipos de análisis.
 
+    p La clasificación de los análisis de contenido puede obedecer a criterios variados. Emanuelli et al. (2012) recopilan una serie de ellos en su obra, como se expone a continuación: 
+
+    .row.mb-5.mt-5
+      .titulo-quinto.color-acento-contenido
+        h3.text-center Pasos para aplicar una entrevista.
+      .col-md-1
+      .col-md-10
+        ImagenInfografica.color-acento-botones.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema2/img_figu_2-5.svg', alt='Texto que describa la imagen')
+              figcaption Nota. Elaboración a partir de Emanuelli et al. (2012).
+
+          .tarjeta.color-acento-botones.p-3(x="3.6%" y="42%" numero="+")
+              .h5.mb-2 Exploratorio:
+              p suelen hacerse uso de estos cuando se busca probar un material de estudio por primera vez. Especialmente útiles en proyectos de formación, donde pueden aportar información relevante respecto a indicadores de medida o delimitaciones de la muestra.
+
+          .tarjeta.color-acento-botones.p-3(x="3.6%" y="58.3%" numero="+")
+            .h5.mb-2 Descriptivo:
+            p Presentan un detalle de la realidad empírica de los documentos. Describen los aspectos más relevantes de la situación estudiada y, a través de ellos, proponen modificaciones o adiciones.
+
+          .tarjeta.color-acento-botones.p-3(x="3.6%" y="74.8%" numero="+")
+            .h5.mb-2 Verificativo: 
+            p Ponen a prueba los trabajos de investigación de otros autores, comparándolos entre sí. Para lograrlo, cuestionan desde la fuente de la información hasta las conclusiones alcanzadas, corroborando cada una de las afirmaciones relevantes.
+          
+          .tarjeta.color-acento-botones.p-3(x="31.5%" y="42%" numero="+")
+            .h5.mb-2 Primarios: 
+            p el contenido estudiado es el original, es decir, fue creado de manera directa por el autor, haciendo uso de otras metodologías como la observación.
+
+          .tarjeta.color-acento-botones.p-3(x="31.5%" y="58.3%" numero="+")
+            .h5.mb-2 Secundarios: 
+            p la fuente de información utilizada en este tipo de análisis de contenido proviene de fuentes secundarias, lo que implica que se compone de resúmenes, traducciones o transcripciones derivadas de un contenido primario.
+
+          .tarjeta.color-acento-botones.p-3(x="57%" y="42%" numero="+")
+            .h5.mb-2 Horizontales 
+            p el contenido a estudiar proviene de múltiples autores y obras. Se suele aplicar este tipo de análisis cuando se busca cuestionar estudios que afectan grandes poblaciones, como ideologías o movimientos políticos de amplio espectro.
+          
+          .tarjeta.color-acento-botones.p-3(x="57%" y="58.3%" numero="+")
+            .h5.mb-2 Verticales:  
+            p son análisis intensivos, asociados a una materia o tópico específico y bien delimitado. Es común que los contenidos fuente toquen muchos más temas y el análisis se centre solo en ciertas secciones. 
+
+          .tarjeta.color-acento-botones.p-3(x="57%" y="74.8%" numero="+")
+            .h5.mb-2 Transversales:  
+            p para este tipo de análisis se suelen confrontar posturas distintas relacionadas con un mismo tema. La intención detrás es identificar las causas de las diferencias entre ellas, si se deben a posturas de los investigadores originales o a causas específicas que trascienden sus alcances.
+
+          .tarjeta.color-acento-botones.p-3(x="57%" y="91%" numero="+")
+            .h5.mb-2 Longitudinales:  
+            p las fuentes de información provienen de diferentes momentos en el tiempo. Se espera evidenciar la evolución respecto a una temática específica. Claros ejemplos de ellos son las publicaciones periódicas de algún medio.mo
+          
+          .tarjeta.color-acento-botones.p-3(x="85%" y="42%" numero="+")
+            .h5.mb-2 Cuantitativos:  
+            p los datos a estudiar pueden medirse aplicando escalas de cantidades. Es posible la tabulación de las posturas y el cálculo de medidas estadísticas que complementen la información recolectada.
+          
+          .tarjeta.color-acento-botones.p-3(x="85%" y="58.3%" numero="+")
+            .h5.mb-2 Cualitativos:  
+            p Predomina el factor descriptivo, tanto en la información fuente como en la generada a través del análisis. Su estudio se centra en posturas, conductas o cualquier otra característica no medible, donde se busca constatar su consistencia. 
+
+    .titulo-sexto.color-acento-contenido
+      h3 Etapas
+    
+    p La aplicación de la metodología de análisis de contenidos puede dividirse en tres fases fundamentales:
+
+    TabsA.color-acento-contenido.mb-5
+      //- .tarjeta debe ir acompañado de una de una de estas clases => 
+      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+      //- estas clases tambien tienen un modificador --borde
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Organización: ")
+        .row
+          .col-md-9
+            h4 Organización: 
+            p es la etapa previa a la ejecución del trabajo de investigación. En ella se define el propósito del estudio, las herramientas a utilizar, las personas que llevarán a cabo cada una de las tareas programadas. A mayor detalle en la planeación de las actividades, más fidedigna será la replicación del estudio para medir su precisión.
+          .col-md-3
+            figure
+              img(src='@/assets/curso/tema2/img-eta1.svg', alt='img 1')
+
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Explotación de material:  ")
+        .row
+          .col-md-9
+            h4 Explotación de material:  
+            p Una vez definidas las tareas, el personal a cargo y la muestra sobre la cual se efectuarán los análisis correspondientes, se inicia el trabajo de interpretación de la información. Simultáneamente, se debe llevar un registro de todos los datos que puedan ser considerados relevantes para el objeto del estudio.
+            p Durante esta fase, también se diseña la hoja de instrucciones, un documento en el que se describe la metodología aplicable y la investigación. Aquí también deben incluirse otros elementos relevantes, como las escalas de medición o los criterios para definir los temas clave, así como un vocabulario con los términos indispensables para efectuar el análisis.
+          .col-md-3.pt-4
+            figure
+              img(src='@/assets/curso/tema2/img-eta2.svg', alt='img 2')
+
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Tratamiento estadístico de la información:  ")
+        .row
+          .col-md-9
+            h4 Tratamiento estadístico de la información:   
+            p una vez se hace el registro de la información y el análisis del contenido fuente está completado, se deben poner a prueba las afirmaciones surgidas de este trabajo. Las validaciones deben cumplir con una serie de criterios expuestos y coherentes con los estudios iniciales, especificando escalas y criterios de medición.
+          .col-md-3
+            figure
+              img(src='@/assets/curso/tema2/img-eta3.svg', alt='img 3')
+      
     
 
 </template>
